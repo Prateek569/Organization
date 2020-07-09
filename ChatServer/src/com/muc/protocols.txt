@@ -1,0 +1,45 @@
+User & Server
+
+1. User --> Server
+
+    * login / logoff
+    * status
+    * messaging
+    * requesting files to share/download
+
+2. Server --> User
+
+    * online / offline
+    * messaging
+    * file sharing
+
+3. User --> User
+
+    * direct messages
+    * broadcast messages / group messaging
+
+Commands:
+
+    login <user> <password>
+    logoff || quit
+
+    to send private message:
+       msg <user> <msg_body>
+
+    to message server :
+       server <msg_body>
+
+    to broadcast message :
+       msg all <body>
+
+for files:
+
+    to download files from database:
+       download physics(bucket name) chapter1(file name)
+
+    to upload file to database:
+       upload physics(bucket name) chapter1(file name)
+          only prateek(main user) is allowed to upload file and not guest
+
+    to receive fies from server:
+       file <file_name>
